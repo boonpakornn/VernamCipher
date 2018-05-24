@@ -4,6 +4,11 @@ def numValue(x):
     for i in range(0, len(avaliableChar)):
         if(x == avaliableChar[i]):
             num = i;
+        else:
+            print 'Some character is not exist in Avaliable Character Array';
+            print 'Application terminated';
+            break
+
     return num;
 
 def CharValue(x):
